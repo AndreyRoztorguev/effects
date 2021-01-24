@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./bg/8.jpg");
+  transition: 2s;
+}
+section h2 {
+  font-size: 16vw;
+  color: #000;
+  background-color: #fff;
+  padding: 20px 40px;
+  mix-blend-mode: screen;
+}
